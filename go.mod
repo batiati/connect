@@ -1,6 +1,6 @@
 module github.com/redpanda-data/connect/v4
 
-go 1.25.7
+go 1.26
 
 replace github.com/99designs/keyring => github.com/Jeffail/keyring v1.2.3
 
@@ -25,7 +25,6 @@ require (
 	cloud.google.com/go/pubsub v1.50.1
 	cloud.google.com/go/spanner v1.86.0
 	cloud.google.com/go/storage v1.57.0
-	cloud.google.com/go/vertexai v0.15.0
 	connectrpc.com/connect v1.19.1
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.19.1
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.13.0
@@ -91,7 +90,7 @@ require (
 	github.com/generikvault/gvalstrings v0.0.0-20180926130504-471f38f0112a
 	github.com/getsentry/sentry-go v0.35.3
 	github.com/go-faker/faker/v4 v4.7.0
-	github.com/go-git/go-git/v5 v5.16.3
+	github.com/go-git/go-git/v5 v5.16.5
 	github.com/go-jose/go-jose/v4 v4.1.3
 	github.com/go-mysql-org/go-mysql v1.13.0
 	github.com/go-resty/resty/v2 v2.16.5
@@ -99,7 +98,7 @@ require (
 	github.com/go-viper/mapstructure/v2 v2.4.0
 	github.com/gocql/gocql v1.7.0
 	github.com/gofrs/uuid/v5 v5.4.0
-	github.com/golang-jwt/jwt/v5 v5.3.0
+	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/google/go-cmp v0.7.0
 	github.com/googleapis/go-sql-spanner v1.19.0
 	github.com/gosimple/slug v1.15.0
@@ -140,7 +139,7 @@ require (
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/rcrowley/go-metrics v0.0.0-20250401214520-65e299d6c5c9
 	github.com/redis/go-redis/v9 v9.14.0
-	github.com/redpanda-data/benthos/v4 v4.64.1
+	github.com/redpanda-data/benthos/v4 v4.65.1
 	github.com/redpanda-data/common-go/authz v0.2.0
 	github.com/redpanda-data/common-go/license v0.0.0-20260109170727-1dd9f5d22ee1
 	github.com/redpanda-data/common-go/redpanda-otel-exporter v0.4.0
@@ -316,9 +315,9 @@ require (
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	cloud.google.com/go/iam v1.5.2 // indirect
 	cloud.google.com/go/trace v1.11.6 // indirect
-	cuelang.org/go v0.15.3 // indirect
+	cuelang.org/go v0.15.4 // indirect
 	dario.cat/mergo v1.0.2 // indirect
-	filippo.io/edwards25519 v1.1.0 // indirect
+	filippo.io/edwards25519 v1.1.1 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
 	github.com/AthenZ/athenz v1.12.26 // indirect
@@ -384,7 +383,7 @@ require (
 	github.com/distribution/reference v0.6.0 // indirect
 	github.com/dlclark/regexp2 v1.11.5 // indirect
 	github.com/docker/cli v28.4.0+incompatible // indirect
-	github.com/docker/docker v28.5.1+incompatible // indirect
+	github.com/docker/docker v28.5.1+incompatible
 	github.com/docker/go-connections v0.6.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dvsekhvalnov/jose2go v1.8.0 // indirect
@@ -447,7 +446,7 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.4 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/klauspost/compress v1.18.3
+	github.com/klauspost/compress v1.18.4
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/kr/fs v0.1.0 // indirect
@@ -519,7 +518,7 @@ require (
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/mod v0.31.0 // indirect
-	golang.org/x/oauth2 v0.34.0
+	golang.org/x/oauth2 v0.35.0
 	golang.org/x/sys v0.40.0
 	golang.org/x/term v0.39.0 // indirect
 	golang.org/x/time v0.13.0 // indirect

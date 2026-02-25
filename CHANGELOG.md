@@ -3,6 +3,20 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
+## 4.82.0 - TBD
+
+### Fixed
+
+- `test` command: Templates registered via the `-t` flag are now correctly available during test execution. (@Phantal)
+
+## 4.81.0 - 2026-02-18
+
+### Added
+
+- The `mysql_cdc` input now adds schema metadata to consumed messages, this can be used for automatic schema conversion in processors such as `schema_registry_encode`. (@Jeffail)
+- (Benthos) Bloblang method `split` now supports converting empty substrings to `null` directly. (@rockwotj)
+- Go API: New `DiscoverAndRegisterPlugins` mechanism added to the `public/plugins/go/rpcnloader` package. (@prakhargarg105)
+
 ## 4.80.1 - 2026-02-05
 
 ### Changed
